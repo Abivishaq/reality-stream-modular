@@ -1,0 +1,26 @@
+# Base scientific stack pinned for RAPIDS compatibility
+numpy==1.24.4
+scikit-learn==1.2.2
+imbalanced-learn==0.11.0
+
+# RAPIDS 25.2 packages (CUDA 12)
+--extra-index-url https://pypi.nvidia.com
+cudf-cu12==25.2.*
+cuml-cu12==25.2.*
+dask-cudf-cu12==25.2.*
+dask-cuda==25.2.*
+rapids-dask-dependency==25.2.*
+raft-dask-cu12==25.2.*
+rmm-cu12==25.2.*
+librmm-cu12==25.2.*
+pylibcudf-cu12==25.2.*
+libraft-cu12==25.2.*
+pylibraft-cu12==25.2.*
+libcuvs-cu12==25.2.*
+cuvs-cu12==25.2.*
+ucx-py-cu12==0.42.*
+ucxx-cu12==0.42.*
+distributed-ucxx-cu12==0.42.*
+
+
+typeguard>=2.13.3
